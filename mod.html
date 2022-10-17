@@ -9,7 +9,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"
         integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="sound.js"></script>
+    <script defer src="sound.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,9 +22,9 @@
         <a class="active" href="mod.html">Modification tab</a>
     </div>
 
+    <h2>Modification 1</h2>
     <p>Background sound automatically play but can control volume with buttons, external js</p>
 
-    <!-- <br> -->
 
     <!-- <button onclick="bird_play()">Play</button>
     <button onclick="bird_pause()">Pause</button>
@@ -32,6 +33,52 @@
     <button onclick="bird_unMute()">Unmute</button>
     <button onclick="bird_volUp()">Vol+</button>
     <button onclick="bird_volDown()">Vol-</button>
+
+    <br>
+    <br>
+
+    <h2>Modification 2</h2>
+    <header class="container">
+        <h2>Scroll to explore
+            <p class="animate-arrow">&darr;
+            </p>
+        </h2>
+    </header>
+    <section class="scroll-container">
+        <div class="scroll-text" data-aos="fade-right" data-aos-mirror="true" data-aos-offset="500"
+            data-aos-anchor-placement="top-bottom">
+            <p>
+                This is text box no.1
+            </p>
+        </div>
+        <div class="scroll-blank">
+        </div>
+    </section>
+    <section class="scroll-container">
+        <div class="scroll-blank">
+        </div>
+        <div class="scroll-text" data-aos="fade-left" data-aos-mirror="true" data-aos-offset="500">
+            <p>
+                This is text box no.2
+            </p>
+        </div>
+    </section>
+    <section class="scroll-container">
+    </section>
+    <section class="scroll-container-ocean" data-aos="fade-up" data-aos-delay="100">
+        <div class="scroll-text">
+            <p>
+                This is text box no.3
+            </p>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800
+        });
+    </script>
 
 </body>
 

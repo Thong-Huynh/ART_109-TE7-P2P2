@@ -1,7 +1,7 @@
 var bird_sound = new Howl({
     src: ['./assets/seagull-on-beach.mp3'],
     loop: true,
-    volume: 0.5,
+    volume: 1,
 });
 bird_sound.play();
 
