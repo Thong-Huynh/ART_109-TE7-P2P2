@@ -1,0 +1,23 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    line-height: 3rem;
+    width: 300px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: salmon;
+}
+
+.active {
+    color: whitesmoke;
+    background: salmon;
+}
